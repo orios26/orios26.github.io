@@ -6,6 +6,15 @@
   header{
     min-height: 100px;
   }
+  .right-align a{
+    font-size: 2em;
+    color: white;
+    font-family: monospace;
+    text-decoration: none;
+  }
+  .responsive{
+    display: none;
+  }
 }
 
 html, body{
@@ -21,8 +30,6 @@ html, body{
   display: flex;
   margin: 10px 0px 0px 0px;
   width: 100%;
-  height: auto;
-  background: #A0B8B0;
 }
 #content{
   margin-top: 5px;
@@ -104,4 +111,5 @@ header{
 }
 p{
   padding: 0px 5px;
+  font-size: 1.3rem;
 }
