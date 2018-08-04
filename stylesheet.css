@@ -1,7 +1,10 @@
-@media screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
   #brand{
     width: 100px;
     height: 100px;
+  }
+  header{
+    min-height: 100px;
   }
 }
 
@@ -41,8 +44,6 @@ a:hover{
   color: #2FBDB3;
   transform: scale(1.1);
   background: #333231;
-
-
 }
 .inline{
   display: flex;
@@ -65,9 +66,9 @@ header{
   width: 180px;
   height: 180px;
 }
-#certificate{
+.responsive{
   width: 50%;
-  height: 50%;
+  height: 40%;
   border-radius: 15px;
 }
 
